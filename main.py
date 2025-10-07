@@ -11,8 +11,9 @@ from utils import *
 
 domain = os.environ.get("Target_Domain",None)
 keyword = os.environ.get("Target_Keyword",None)
+pagesize = os.environ.get("Paper_Num")
 
-translated_papers = arxiv_search(domain = domain, keyword = keyword, frm = 0, pagesize = 10)
+translated_papers = arxiv_search(domain = domain, keyword = keyword, frm = 0, pagesize = pagesize)
 
 for idx,paper in enumerate(translated_papers):
     message_title = f"{domain}-{keyword}-{idx}"
