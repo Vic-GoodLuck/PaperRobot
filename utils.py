@@ -88,18 +88,8 @@ def send_feishu_message(message_title, message_content):
         },
         "elements": [
             {
-            "tag": "img",
-            "img_key": "img_v2_9781afeb-279d-4a05-8736-1dff05e19dbg",
-            "alt": {
-                "tag": "plain_text",
-                "content": ""
-            },
-            "mode": "fit_horizontal",
-            "preview": True
-            },
-            {
-            "tag": "markdown",
-            "content": message_content
+                "tag": "markdown",
+                "content": message_content
             }
         ]
     }
