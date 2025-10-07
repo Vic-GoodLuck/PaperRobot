@@ -1,5 +1,5 @@
 
-
+依赖Github Workflows、ArXiv API、彩云小译、飞书机器人，实现每日推送ArXiv论文的小工具。支持指定Paper领域、关键词，定时推送至飞书群聊
 
 ### Quick Start
     - 彩云小译获取API Key
@@ -15,5 +15,7 @@
 ### References
 
 https://zhuanlan.zhihu.com/p/425670267
+
 https://github.com/Vincentqyw/cv-arxiv-daily/tree/main
+
 https://github.com/Doragd/Algorithm-Practice-in-Industry/tree/main
