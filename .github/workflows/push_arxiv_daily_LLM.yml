@@ -7,7 +7,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *' # 每天 UTC 时间 00:30 触发, 即东八区时间8:30
+    - cron: '0 1 * * *' # 每天 UTC 时间 01:00 触发, 即东八区时间9:00
 
 jobs:
   daily-push:
@@ -16,8 +16,8 @@ jobs:
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.CL"
-      # Target_Keyword: ""
-      Paper_Num: 15
+      Target_Keyword: "Large Language Model LLM MLLM VLM Reinforcement Learning"
+      Paper_Num: 10
 
     permissions:
       issues: write
