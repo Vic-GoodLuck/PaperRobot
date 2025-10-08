@@ -1,4 +1,4 @@
-name: push_arxiv_daily_NLP
+name: push_arxiv_daily_LLM
 
 env:
   PYTHON_VERSION: "3.8"
