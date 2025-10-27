@@ -17,7 +17,7 @@ jobs:
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.IR"
       Target_Keyword: "Generative Retrieval Recommendation"
-      Paper_Num: 5
+      Paper_Num: 20
 
     permissions:
       issues: write
