@@ -16,7 +16,7 @@ jobs:
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.CL"
-      Target_Keyword: "Large Language Model LLM MLLM VLM Reinforcement Learning"
+      Target_Keyword: "Large Language Model Reasoning LLM MLLM VLM Reinforcement Learning"
       Paper_Num: 10
 
     permissions:
