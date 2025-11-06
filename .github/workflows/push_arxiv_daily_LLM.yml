@@ -17,7 +17,7 @@ jobs:
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.CL"
       Target_Keyword: "Reasoning LLM VLM Reinforcement Learning"
-      Paper_Num: 20
+      Paper_Num: 5
 
     permissions:
       issues: write
