@@ -16,8 +16,8 @@ jobs:
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.CL"
-      Target_Keyword: "Reasoning LLM VLM Reinforcement Learning"
-      Paper_Num: 5
+      Target_Keyword: "Reasoning LLM VLM Reinforcement Agentic"
+      Paper_Num: 3
 
     permissions:
       issues: write
