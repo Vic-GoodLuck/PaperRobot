@@ -7,7 +7,7 @@ env:
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 1 * * *' # 每天 UTC 时间 00:00 触发, 即东八区时间8:00
+    - cron: '0 2 * * 0'  # 每周日UTC时间2:00（中国时间10:00）
 
 jobs:
   daily-push:
@@ -17,7 +17,7 @@ jobs:
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.IR"
       Target_Keyword: "Search Recommendation"
-      Paper_Num: 2
+      Paper_Num: 10
 
     permissions:
       issues: write
