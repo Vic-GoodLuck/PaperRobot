@@ -16,7 +16,7 @@ jobs:
       CAIYUN_TOKEN: ${{ secrets.CAIYUN_TOKEN }}
       FEISHU_URL: ${{ secrets.FEISHU_URL }}
       Target_Domain: "cs.IR"
-      Target_Keyword: "Search Recommendation"
+      Target_Keyword: "Search Recommendation System"
       Paper_Num: 10
 
     permissions:
